@@ -13,7 +13,7 @@ public class ItemDto {
     }
 
     public String getName() {
-        return id;
+        return name;
     }
 
     public void setName(String name) {

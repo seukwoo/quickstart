@@ -4,12 +4,12 @@ spring:
       enabled: true
 
 
-      datasource:
-        hikari:
-          diver-class-name: org.h2.Driver
-          jdbc-url: jdbc:h2:~/test
-          username: sa
-          password:
+  datasource:
+    hikari:
+      driver-class-name: org.h2.Driver
+      jdbc-url: jdbc:h2:~/test
+      username: sa
+      password:
 
 mybatis:
   mapper-locations:
